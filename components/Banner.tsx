@@ -16,10 +16,12 @@ function Banner( { netflixOriginals }: Props) {
 
     useEffect(() => {
         //Bug Fixed
+        
         let k = Math.floor(Math.random() * netflixOriginals.length)
-        while(k == 11 || k == 6 || k == 15 || k == 14){
+        while(k == 11 || k == 6 || k == 15 || k == 14 || k == 12 || k == 2 || k == 1){
             k = Math.floor(Math.random() * netflixOriginals.length)
         }
+        console.log(k)
         setMovie(netflixOriginals[k])
     },[netflixOriginals])
 
