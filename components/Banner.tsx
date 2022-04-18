@@ -20,7 +20,6 @@ function Banner( { netflixOriginals }: Props) {
         while(k == 11 || k == 6 || k == 15 || k == 14){
             k = Math.floor(Math.random() * netflixOriginals.length)
         }
-        console.log(k)
         setMovie(netflixOriginals[k])
     },[netflixOriginals])
 
