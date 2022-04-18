@@ -15,6 +15,7 @@ function Banner( { netflixOriginals }: Props) {
     const [movie, setMovie] = useState<Movie | null>(null)
 
     useEffect(() => {
+        //Bug Fixed
         let k = Math.floor(Math.random() * netflixOriginals.length)
         while(k == 11 || k == 6 || k == 15 || k == 14){
             k = Math.floor(Math.random() * netflixOriginals.length)
