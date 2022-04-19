@@ -24,7 +24,14 @@ https://user-images.githubusercontent.com/66564001/163690298-1be8c8b0-ac77-4f26-
 
 https://user-images.githubusercontent.com/66564001/163800821-13e573e6-98cb-4b01-91f9-ccc3e4183a30.mp4
 
+## Row Section - Completed
 
+* HomePage UI - Completed
+
+https://user-images.githubusercontent.com/66564001/163980517-06d29371-a87a-41f2-8c01-995bdad83a56.mp4
+
+
+https://user-images.githubusercontent.com/66564001/163980959-c6728fdd-13c7-4a7e-9345-91818cce3fda.mp4
 
 
 
