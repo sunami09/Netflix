@@ -39,6 +39,28 @@ https://user-images.githubusercontent.com/66564001/163980959-c6728fdd-13c7-4a7e-
 https://user-images.githubusercontent.com/66564001/163990923-08d73943-b844-4809-99e7-8b8330d1d874.mp4
 
 
+## Login Page Functionality - Completed
+
+* Loging in with existing account
+
+https://user-images.githubusercontent.com/66564001/164234432-87930f41-45a8-471a-93a9-df13e4f9eeb3.mp4
+
+
+* Trying to LogIn with a non-existing account
+
+https://user-images.githubusercontent.com/66564001/164234700-4c8c259e-321e-442c-bda1-e0c05e513e7f.mp4
+
+<!-- For Soham * SignUp with a new account
+
+
+https://user-images.githubusercontent.com/66564001/164236038-2e93e69c-7953-4ba2-b976-6740e71d0c78.mp4
+
+
+
+
+https://user-images.githubusercontent.com/66564001/164236351-30492432-42a8-4166-9395-8c496892c1b4.mp4 -->
+
+
 
 
 
