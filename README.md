@@ -39,6 +39,19 @@ https://user-images.githubusercontent.com/66564001/163980959-c6728fdd-13c7-4a7e-
 https://user-images.githubusercontent.com/66564001/163990923-08d73943-b844-4809-99e7-8b8330d1d874.mp4
 
 
+## Login Page Functionality - Completed
+
+* Loging in with existing account
+
+
+https://user-images.githubusercontent.com/66564001/164233623-eebafc05-d87e-4c51-b205-ab761cbb860b.mp4
+
+
+* Trying to LogIn with a non-existing account
+
+
+
+
 
 
 
