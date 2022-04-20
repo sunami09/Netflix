@@ -4,6 +4,8 @@ import { baseUrl } from "../constants/movie";
 import { Movie } from "../typings"
 import { FaPlay } from "react-icons/fa"
 import { InformationCircleIcon } from "@heroicons/react/solid";
+import { useRecoilState } from "recoil";
+import { modalState, movieState } from "../atoms/modalAtom";
 
 
 interface Props {
@@ -13,12 +15,20 @@ interface Props {
 function Banner( { netflixOriginals }: Props) {
 
     const [movie, setMovie] = useState<Movie | null>(null)
+  const [currentMovie, setCurrentMovie] = useRecoilState(movieState)
+  const [showModal, setShowModal] = useRecoilState(modalState)
 
     useEffect(() => {
         //Bug Fixed
         
         let k = Math.floor(Math.random() * netflixOriginals.length)
-        while(k == 11 || k == 6 || k == 15 || k == 14 || k == 12 || k == 2 || k == 1 || k == 17 || k == 9){
+        while(
+               netflixOriginals[k].original_name == "Pil's Adventures" || netflixOriginals[k].title == "Pil's Adventures" || netflixOriginals[k].name == "Pil's Adventures"
+            || netflixOriginals[k].original_name == "Gold" || netflixOriginals[k].title == "Gold" || netflixOriginals[k].name == "Gold"
+            || netflixOriginals[k].original_name == "Encanto" || netflixOriginals[k].title == "Encanto" || netflixOriginals[k].name == "Encanto"
+            || netflixOriginals[k].original_name == "My Hero Academia: World Heroes' Mission" || netflixOriginals[k].title == "My Hero Academia: World Heroes' Mission" || netflixOriginals[k].name == "My Hero Academia: World Heroes' Mission"
+        )
+        {
             k = Math.floor(Math.random() * netflixOriginals.length)
         }
         console.log(k)
@@ -43,7 +53,10 @@ function Banner( { netflixOriginals }: Props) {
                 <button className="bannerButton bg-white text-black">
                     <FaPlay className="h-4 w-4 text-black md:h-7 md:w-7"/>
                     Play</button>
-                <button className="bannerButton bg-[gray]/70">More Info <InformationCircleIcon 
+                <button className="bannerButton bg-[gray]/70" onClick={() => {
+            setCurrentMovie(movie)
+            setShowModal(true)
+          }}>More Info <InformationCircleIcon 
                 className="h-5 w-5 md:h-8 md:w-8" /></button>
             </div>
             
